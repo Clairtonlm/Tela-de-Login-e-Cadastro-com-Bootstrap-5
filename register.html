@@ -16,7 +16,63 @@
 
 </head>
 <body>
-    
+    <div class="container col-11 col-md-9" id="form-container">
+        <div class="row gx-5">
+            <div class="col-md-6">
+                <h2>Realize seu cadastro</h2>
+                <form >
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Digite o seu nome">
+                        <label for="name" class="form-label">Digite seu nome</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Digite o seu sobrenome">
+                        <label for="lastname" class="form-label">Digite seu sobrenome</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Digite o seu email">
+                        <label for="email" class="form-label">Digite seu E-mail</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="password" class="form-control" id="passwordame="password" placeholder="Digite o seu email">
+                        <label for="password" class="form-label">Digite sua senha</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="password" name="confirmpassword" class="form-control" id="confirmpassword="password" placeholder="Digite o seu email">
+                        <label for="confirmpassword" class="form-label">Confirme sua senha</label>
+                    </div>
+                    <div class="mb-3">
+                        <div class="form-check mb-2">
+                            <input type="checkbox" class="form-check-input" name="agree-form" id="agree-form" value="">
+                            <label for="agree-form" class="form-check-label">
+                                Você acaita os <a href="#">termos de serviços</a>?
+                            </label>
+                        </div>
+                        <div class="form-check mb-2">
+                            <input type="checkbox" class="form-check-input" name="newslatter" id="newslatter" checked>
+                            <label for="newslatter" class="form-check-label">
+                               Deseja receber nossoas novidades?
+                            </label>
+                        </div>
+                        <input type="submit" class="btn btn-primary" value="Cadastrar">
+                    </div>
+                </form>
+            </div>
+
+            <!-- IMAGEM DA PAGINA -->
+
+            <div class="col-md-6">
+                <div class="row align-items-center">
+                    <div class="col-12">
+                        <img src="./img/hello.svg" class="img-fluid" alt="tela de registro">
+                    </div>
+                    <div class="col-12" id="link-container">
+                        <a href="login.html">Eu já tenho uma conta</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
      
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"> 
     </script>  
